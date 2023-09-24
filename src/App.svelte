@@ -2,6 +2,8 @@
   import WebsiteTitle from "./lib/WebsiteTitle.svelte";
   import Blog from "./lib/blog/Blog.svelte";
     import TopBar from "./lib/topbar/TopBar.svelte";
+
+  import {performance, PerformanceObserver} from 'perf_hooks';
 </script>
 
 <main>
