@@ -1,45 +1,69 @@
 <script lang="ts">
-  import WebsiteTitle from "./lib/WebsiteTitle.svelte";
-  import Blog from "./lib/blog/Blog.svelte";
-  import ButtonBar from "./lib/topbar/ButtonBar.svelte";
+  import WebsiteTitle from "./lib/components/WebsiteTitle.svelte";
+  import Blog from "./lib/pages/blog/Blog.svelte";
+  import NavigationBar from "./lib/components/navigationbar/NavigationBar.svelte";
+  import Links from "./lib/pages/links/links.svelte";
+
+  const load = () => {
+    const params = new URLSearchParams(document.location.search);
+
+    const f = params.get("site");
+
+    return f;
+  };
+
+  let site = load();
 </script>
 
-<style>
-        .gfg {
-            margin: 0%;
-            position: relative;
-        }
-       
-      /*This CSS code is defining the styles for a container that holds text*/
-        .text-container {
-            position: absolute;
-            color: rgb(255, 255, 255);
-            left: 43rem;
-            top: 33rem;
-            /* background-color: rgb(41, 41, 41, 0.8); */
-            padding: 0 0rem;
-        }
-    </style>
-
 <main>
+  <NavigationBar />
+  <br>
+  <br>
+  <br>
 
-  
-  <WebsiteTitle title="DJ und Producer" visible={true} size={1}></WebsiteTitle>
-  <WebsiteTitle title="Deep House - Progressive House - Tech House" visible={true} size={1}></WebsiteTitle>
-  
-<div class="gfg">
-        <img src=
-"robert.jpg" alt="">
+  <p>
+    {#if site == "links"}
+      <Links />
+    {:else if site == "blog"}
+      <WebsiteTitle title="News, Auftritte und Blog" visible={true} size={1} />
+      <Blog />
+    {:else}
+      <WebsiteTitle title="DJ und Producer" visible={true} size={1} />
+      <WebsiteTitle
+        title="Deep House - Progressive House - Tech House"
+        visible={true}
+        size={1}
+      />
+
+      <div class="gfg">
+        <img src="robert.jpg" alt="" />
         <div class="text-container">
-            <h1 style="font-family: 'Times New Roman', Times, serif; font-size:xx-large">DJ Robert Lenz</h1>
+          <h1
+            style="font-family: 'Times New Roman', Times, serif; font-size:xx-large"
+          >
+            DJ Robert Lenz
+          </h1>
         </div>
-    </div>
-
-  <ButtonBar></ButtonBar>
-  <br>
-  <br>
-  <WebsiteTitle  title="News, Auftritte und Blog" visible={true} size={1}></WebsiteTitle>
-
-  <Blog></Blog>
-  
+      </div>
+    {/if}
+  </p>
 </main>
+
+<style>
+
+
+  .gfg {
+    margin: 1%;
+    position: relative;
+  }
+
+  /*This CSS code is defining the styles for a container that holds text*/
+  .text-container {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 43rem;
+    top: 33rem;
+    /* background-color: rgb(41, 41, 41, 0.8); */
+    padding: 1 1rem;
+  }
+</style>
