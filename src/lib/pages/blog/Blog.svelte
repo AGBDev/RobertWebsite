@@ -14,6 +14,7 @@
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. At dolore expedita excepturi aliquid debitis libero vel obcaecati, optio voluptates voluptatum repellat provident sit quaerat repellendus. Eius voluptas ratione tenetur commodi.."], 
         images: []
     });
+    
 
 </script>
 
