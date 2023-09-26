@@ -12,9 +12,8 @@
         content: [
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. At dolore expedita excepturi aliquid debitis libero vel obcaecati, optio voluptates voluptatum repellat provident sit quaerat repellendus. Eius voluptas ratione tenetur commodi..", 
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. At dolore expedita excepturi aliquid debitis libero vel obcaecati, optio voluptates voluptatum repellat provident sit quaerat repellendus. Eius voluptas ratione tenetur commodi.."], 
-        images: []
+        images: ["robert.jpg"]
     });
-    
 
 </script>
 
@@ -28,7 +27,7 @@
                     <img src={image} alt="">
                 {/each}
                 {#each entry.content as content}
-                    <h2 style="color: beige; serif">{content}</h2>
+                    <h2 style="color:antiquewhite; serif; font-size: xx-larger">{content}</h2>
                 {/each}
             </div>
         </div>
