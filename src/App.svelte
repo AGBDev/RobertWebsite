@@ -20,6 +20,11 @@
       >
         DJ Robert Lenz
       </h1>
+      <h1
+        style="font-family: 'Times New Roman', Times, serif; font-size:x-large"
+      >
+        DJ und Producer
+      </h1>
     </div>
   </div>
 
@@ -33,7 +38,7 @@
 
 <style>
   .gfg {
-    margin: 0%;
+    margin: 1%;
     position: relative;
   }
 
