@@ -10,17 +10,6 @@
     |
     <NavBarButton text="Links" site="/?site=links"></NavBarButton>
     |
-    <NavBarButton text="Kontakt" site="/?site="></NavBarButton>
+    <NavBarButton text="Kontakt" site="/?site=contact"></NavBarButton>
 </div>
 
-
-
-<style>
-    div.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 10%;
-  padding: 40px;
-  font-size: 25px;
-}
-</style>
