@@ -1,5 +1,4 @@
 <script lang="ts">
-
 </script>
 
 <div style="border-style: groove; padding: 3em">
