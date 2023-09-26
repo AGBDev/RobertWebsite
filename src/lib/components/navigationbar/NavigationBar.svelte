@@ -3,24 +3,7 @@
 
 </script>
 
-<div class="sticky">
-    <!-- <ul style="display:inline;"> 
-        <li style="display:inline;">
-            <NavBarButton text="Startseite" site="/?site="></NavBarButton>
-        </li>
-        |
-        <li style="display:inline">
-            <NavBarButton text="Blog" site="/?site=blog"></NavBarButton>
-        </li>
-        |
-        <li style="display:inline">
-            <NavBarButton text="Links" site="/?site=links"></NavBarButton>
-        </li>
-        |
-        <li style="display:inline">
-            <NavBarButton text="Kontakt" site="/?site="></NavBarButton>
-        </li>
-    </ul> -->
+<div class="sticky" style="background-color: black;">
     <NavBarButton text="Startseite" site="/?site="></NavBarButton>
     |
     <NavBarButton text="Blog" site="/?site=blog"></NavBarButton>
