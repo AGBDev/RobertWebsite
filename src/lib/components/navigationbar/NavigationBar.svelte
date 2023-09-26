@@ -10,7 +10,7 @@
     |
     <NavBarButton text="Links" site="/?site=links"></NavBarButton>
     |
-    <NavBarButton text="Kontakt" site="/?site="></NavBarButton>
+    <NavBarButton text="Kontakt" site="/?site=contact"></NavBarButton>
 </div>
 
 

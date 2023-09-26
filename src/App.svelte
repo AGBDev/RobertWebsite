@@ -3,6 +3,7 @@
   import Blog from "./lib/pages/blog/Blog.svelte";
   import NavigationBar from "./lib/components/navigationbar/NavigationBar.svelte";
   import Links from "./lib/pages/links/links.svelte";
+    import Contact from "./lib/pages/contact/Contact.svelte";
 
   const load = () => {
     const params = new URLSearchParams(document.location.search);
@@ -27,6 +28,8 @@
     {:else if site == "blog"}
       <WebsiteTitle title="News, Auftritte und Blog" visible={true} size={1} />
       <Blog />
+    {:else if site == "contact"}
+      <Contact></Contact>
     {:else}
       <WebsiteTitle title="DJ und Producer" visible={true} size={1} />
       <WebsiteTitle
