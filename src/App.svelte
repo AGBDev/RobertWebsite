@@ -24,21 +24,17 @@
 <main>
 
   
-  <!-- <WebsiteTitle title="DJ Robert Lenz" visible={true} size={1} /> -->
-  <!-- <h1 style="font-family: 'Times New Roman', Times, serif;">DJ Robert Lenz</h1> -->
   <WebsiteTitle title="DJ und Producer" visible={true} size={1}></WebsiteTitle>
   <WebsiteTitle title="Deep House - Progressive House - Tech House" visible={true} size={1}></WebsiteTitle>
   
 <div class="gfg">
         <img src=
-"robert.jpg">
+"robert.jpg" alt="">
         <div class="text-container">
             <h1 style="font-family: 'Times New Roman', Times, serif; font-size:xx-large">DJ Robert Lenz</h1>
         </div>
     </div>
 
-  <!-- <img src="robert.jpg" alt="" id="robert"> -->
-  
   <ButtonBar></ButtonBar>
   <br>
   <br>
