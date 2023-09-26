@@ -3,10 +3,15 @@
     export let site: string;
 </script>
 
+<a href="{site}" class="button" style="text-align: center;">{text}</a>
 
+<style>
+    a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
 
-<div style="display:inline;">
-    <a class="button" href={site} style="font-size: xx-large; color:red; font-family:'Times New Roman', Times, serif">
-        <div style="display:inline;">{text}</div>
-    </a>
-</div>
+    text-decoration: none;
+    color: initial;
+}
+</style>
