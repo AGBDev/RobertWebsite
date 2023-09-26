@@ -15,6 +15,7 @@
 
   let site = load();
 
+  // set to true to block access
   let block_access = false;
 </script>
 
