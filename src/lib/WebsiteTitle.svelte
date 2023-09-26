@@ -2,6 +2,10 @@
     export let title: string = "";
     export let size: number = 1;
     export let visible: boolean = false;
+
+    export const toggle = () => {
+        visible = !visible;
+    }
 </script>
 
 
