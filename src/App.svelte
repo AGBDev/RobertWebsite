@@ -1,21 +1,48 @@
 <script lang="ts">
   import WebsiteTitle from "./lib/WebsiteTitle.svelte";
   import Blog from "./lib/blog/Blog.svelte";
-  import TopBar from "./lib/topbar/TopBar.svelte";
+  import ButtonBar from "./lib/topbar/ButtonBar.svelte";
 </script>
+
+<style>
+        .gfg {
+            margin: 0%;
+            position: relative;
+        }
+       
+      /*This CSS code is defining the styles for a container that holds text*/
+        .text-container {
+            position: absolute;
+            color: rgb(255, 255, 255);
+            left: 43rem;
+            top: 33rem;
+            /* background-color: rgb(41, 41, 41, 0.8); */
+            padding: 0 0rem;
+        }
+    </style>
 
 <main>
 
-  <!-- <TopBar></TopBar> -->
+  
+  <!-- <WebsiteTitle title="DJ Robert Lenz" visible={true} size={1} /> -->
+  <!-- <h1 style="font-family: 'Times New Roman', Times, serif;">DJ Robert Lenz</h1> -->
+  <WebsiteTitle title="DJ und Producer" visible={true} size={1}></WebsiteTitle>
+  <WebsiteTitle title="Deep House - Progressive House - Tech House" visible={true} size={1}></WebsiteTitle>
+  
+<div class="gfg">
+        <img src=
+"robert.jpg">
+        <div class="text-container">
+            <h1 style="font-family: 'Times New Roman', Times, serif; font-size:xx-large">DJ Robert Lenz</h1>
+        </div>
+    </div>
 
-  <WebsiteTitle title="Robert Lennartz" visible={true} size={1} />
-  <WebsiteTitle title="DJ und Musiker" visible={true} size={2}></WebsiteTitle>
-
-  <img src="robert_logo_1.png" alt="" id="robert">
-
+  <!-- <img src="robert.jpg" alt="" id="robert"> -->
+  
+  <ButtonBar></ButtonBar>
   <br>
   <br>
-  <WebsiteTitle  title="News, Auftritte und Blog" visible={true} size={2}></WebsiteTitle>
+  <WebsiteTitle  title="News, Auftritte und Blog" visible={true} size={1}></WebsiteTitle>
 
   <Blog></Blog>
   
