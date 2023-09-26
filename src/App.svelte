@@ -2,7 +2,7 @@
   import WebsiteTitle from "./lib/components/WebsiteTitle.svelte";
   import Blog from "./lib/pages/blog/Blog.svelte";
   import NavigationBar from "./lib/components/navigationbar/NavigationBar.svelte";
-  import Links from "./lib/pages/links/links.svelte";
+  import Links from "./lib/pages/links/Links.svelte";
     import Contact from "./lib/pages/contact/Contact.svelte";
 
   const load = () => {
@@ -51,22 +51,3 @@
     {/if}
   </p>
 </main>
-
-<style>
-
-
-  .gfg {
-    margin: 1%;
-    position: relative;
-  }
-
-  /*This CSS code is defining the styles for a container that holds text*/
-  .text-container {
-    position: absolute;
-    color: rgb(255, 255, 255);
-    left: 43rem;
-    top: 33rem;
-    /* background-color: rgb(41, 41, 41, 0.8); */
-    padding: 1 1rem;
-  }
-</style>

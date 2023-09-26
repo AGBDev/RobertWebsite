@@ -31,6 +31,21 @@ a.button {
   color: initial;
 }
 
+.gfg {
+  margin: 1%;
+  position: relative;
+}
+
+/*This CSS code is defining the styles for a container that holds text*/
+.text-container {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  left: 43rem;
+  top: 33rem;
+  /* background-color: rgb(41, 41, 41, 0.8); */
+  padding: 1 1rem;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
