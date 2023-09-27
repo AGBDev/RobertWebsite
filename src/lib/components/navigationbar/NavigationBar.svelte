@@ -1,7 +1,3 @@
-<script lang="ts">
-
-</script>
-
 <nav>
     <h1>DJ Robert Lentz</h1>
     <ul>
@@ -23,28 +19,32 @@
 <style>
     nav {
         display: flex;
-        position: top;
+        position: -webkit-sticky;
         position: sticky;
         top: 0;
         background-color: rgb(0, 0, 0);
         padding: 30px;
         font-size: 25px;
     }
+
     ul {
         display: flex;
         list-style: none;
     }
+
     li {
         margin-right: 35px;
         margin-left: 13px;
     }
+
     a {
-        font-size: 23px;
+        font-size: 30px;
         font-family: 'Times New Roman', Times, serif;
     }
+
     h1 {
         margin: 0;
         font-family: 'Times New Roman', Times, serif;
-        color:rgb(30, 59, 1);
+        color: rgb(30, 59, 1);
     }
 </style>
