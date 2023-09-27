@@ -1,4 +1,4 @@
-<script lang="ts">
+<script lang="ts" src="./NavBarButton.ts">
     export let text: string;
     export let site: string;
 </script>
