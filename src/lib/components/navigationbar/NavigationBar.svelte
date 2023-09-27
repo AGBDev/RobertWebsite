@@ -19,7 +19,6 @@
 <style>
     nav {
         display: flex;
-        position: -webkit-sticky;
         position: sticky;
         top: 0;
         background-color: rgb(0, 0, 0);
