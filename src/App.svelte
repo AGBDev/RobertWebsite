@@ -21,12 +21,9 @@
 
 <main>
   {#if block_access == false}
-    <NavigationBar />
-    <br />
-    <br />
-    <br />
 
     <p>
+      <NavigationBar />
       {#if site == "links"}
         <Links />
       {:else if site == "blog"}
@@ -59,6 +56,6 @@
       {/if}
     </p>
   {:else}
-    <h1>Die Website ist zurzeit Offline!</h1>
+    <h1>error</h1>
   {/if}
 </main>

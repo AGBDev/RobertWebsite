@@ -20,7 +20,7 @@
 
 <div>
     {#each entries as entry, index}
-        <div style="border-style:groove;">
+        <div>
             <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">{entry.name}</h1>
             <div>
                 {#each entry.images as image}

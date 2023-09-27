@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<div style="border-style:groove">
+<div>
     <a
         href="https://soundcloud.com/djrobertlenz"
         style="font-size: larger;"
