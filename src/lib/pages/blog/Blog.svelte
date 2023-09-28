@@ -7,17 +7,10 @@
 
     let entries: BlogEntry[] = [];
 
-    entries.push({
-        name: "Neuigkeiten zum 24.09.2023",
-        content: [
-            "Es gibt nun eine offizielle Website für DJ Robert Lenz.",
-            "Auf dieser Website können sich Fans von Musik über Auftritte, Neuigkeiten und mehr informieren."],
-        images: ["robert.jpg"]
-    });
-
 </script>
 
 <div>
+    <h1 style="font-family: 'Times New Roman'">Blog</h1>
     {#each entries as entry}
         <div>
             <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">{entry.name}</h1>
@@ -31,4 +24,7 @@
             </div>
         </div>
     {/each}
+    {#if entries.length == 0}
+        <h2 style="font-family: 'Times New Roman', Times, serif">Zurzeit gibt es keine Einträge.</h2>
+    {/if}
 </div>
