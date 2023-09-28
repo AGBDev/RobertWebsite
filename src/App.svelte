@@ -12,10 +12,11 @@
 
 <main>
     <Router {url}>
-        <nav>
+        <nav title="Navigiere durch die Website">
             <Link to="/" title="Wechsle zu der Startseite">Startseite</Link>
             |
 <!--            <Link to="/about">Über Mich</Link>-->
+<!--            |-->
             <Link to="/blog" title="Wechsle zum Blog">Blog</Link>
             |
             <Link to="/links" title="Wechsle zu den Links">Links</Link>
@@ -23,6 +24,7 @@
             <Link to="/contact" title="Wechsle zu der Kontaktseite">Kontakt</Link>
         </nav>
         <hr>
+        <br>
         <div>
             <Route path="/about" component={About}></Route>
             <Route path="/blog" component={Blog}></Route>
