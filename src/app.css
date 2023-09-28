@@ -30,7 +30,6 @@ nav {
 
   /* Pay special attention here! */
   position: sticky;
-  top: 0px;
 }
 
 nav:hover {
@@ -40,7 +39,7 @@ nav:hover {
 nav a {
   color: #adff7e;
   text-decoration: none;
-  margin: 0px 20px;
+  margin: 0 20px;
 }
 
 nav a:hover {
@@ -90,7 +89,7 @@ h1 {
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0rem;
+  padding: 0;
   text-align: center;
 }
 
