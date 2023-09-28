@@ -2,7 +2,6 @@
     interface BlogEntry {
         name: string;
         content: string[];
-        images: string[];
     }
 
     let entries: BlogEntry[] = [];
@@ -15,16 +14,18 @@
         <div>
             <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">{entry.name}</h1>
             <div>
-                {#each entry.images as image}
-                    <img src={image} alt="">
-                {/each}
                 {#each entry.content as content}
                     <h2 style="color:antiquewhite; font-size: xx-larger">{content}</h2>
                 {/each}
             </div>
         </div>
+        {#if entries.length > 1}
+            {#if entry !== entries[entries.length - 1]}
+                <hr>
+            {/if}
+        {/if}
     {/each}
-    {#if entries.length == 0}
+    {#if entries.length === 0}
         <h2 style="font-family: 'Times New Roman', Times, serif">Zurzeit gibt es keine Einträge.</h2>
     {/if}
 </div>
