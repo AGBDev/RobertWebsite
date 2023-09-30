@@ -2,6 +2,7 @@
     interface BlogEntry {
         name: string;
         content: string[];
+        id : number;
     }
 
     let entries: BlogEntry[] = [];
