@@ -7,9 +7,9 @@
 
     let entries: BlogEntry[] = [];
 
-    entries.push({name: "Test", content: ["Hallo!", "Das ist ein cooler Eintrag!"], id: 0});
-    entries.push({name: "Test", content: ["Hallo!", "Das ist ein cooler Eintrag!"], id: 1});
-    entries.push({name: "Test", content: ["Hallo!", "Das ist ein cooler Eintrag!"], id: 2});
+    //entries.push({name: "Test", content: ["Hallo!", "Das ist ein cooler Eintrag!"], id: 0});
+    //entries.push({name: "Test", content: ["Hallo!", "Das ist ein cooler Eintrag!"], id: 1});
+    //entries.push({name: "Test", content: ["Hallo!", "Das ist ein cooler Eintrag!"], id: 2});
 
     entries.reverse();
 
