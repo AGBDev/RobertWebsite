@@ -21,6 +21,15 @@
   position: absolute;
 }
 
+.cool_button {
+  font-family: "Times New Roman", serif;
+}
+
+.cool_button:hover {
+  font-size: 24px;
+  text-decoration: underline;
+}
+
 nav {
   background-color: #000000;
   padding: 5px;
