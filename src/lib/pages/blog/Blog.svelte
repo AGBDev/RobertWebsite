@@ -7,10 +7,16 @@
 
     let entries: BlogEntry[] = [];
 
+    // add entries here:
+
+
+
     entries.reverse();
 
+    // loading all?
     let loadAll = false;
 
+    // get id for loading a specific one
     let urlParams = new URLSearchParams(window.location.search);
     let id = urlParams.get("id");
 
