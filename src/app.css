@@ -22,11 +22,12 @@
 }
 
 .cool_button {
+  font-size: 30px;
   font-family: "Times New Roman", serif;
 }
 
 .cool_button:hover {
-  font-size: 24px;
+  font-size: 34px;
   text-decoration: underline;
 }
 
@@ -46,6 +47,11 @@ nav:hover {
 
 .siteheader {
   font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.sitesubheader {
+  font-size: 35px;
   font-family: 'Times New Roman', Times, serif;
 }
 

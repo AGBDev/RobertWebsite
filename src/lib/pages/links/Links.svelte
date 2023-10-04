@@ -1,7 +1,7 @@
 <div>
 
     <h1 class="siteheader">Links</h1>
-    <h2 style="font-family: 'Times New Roman'">DJ Robert Lenz ist auch auf den folgenden Platformen zu finden</h2>
+    <h2 class="sitesubheader">DJ Robert Lenz ist auch auf den folgenden Platformen zu finden</h2>
 
     <hr>
 
