@@ -44,14 +44,20 @@ nav {
 nav:hover {
 }
 
+.siteheader {
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 nav a {
-  color: #adff7e;
+  color: #5eff00;
   text-decoration: none;
   margin: 0 20px;
 }
 
 nav a:hover {
   font-size: 25px;
+  text-decoration: wavy;
 }
 
 .gfg {

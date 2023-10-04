@@ -1,5 +1,5 @@
-<div style="border-style: solid;">
-    <h1 style="font-size: 40px; font-family:'Times New Roman', Times, serif">Über mich</h1>
+<div>
+    <h1 class="siteheader">Über mich</h1>
     <h2 style="font-family: 'Times New Roman', Times, serif; font-size: 35px;">
         Hallo, meine Name ist Robert Lenz.
     </h2>

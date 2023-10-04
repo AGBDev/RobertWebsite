@@ -27,7 +27,7 @@
 </script>
 
 <div>
-    <h1 style="font-family: 'Times New Roman'">Blog</h1>
+    <h1 class="siteheader">Blog</h1>
     {#if entries.length === 0}
         <h2 style="font-family: 'Times New Roman', Times, serif">Zurzeit gibt es keine Einträge.</h2>
     {/if}
