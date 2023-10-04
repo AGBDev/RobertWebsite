@@ -1,9 +1,9 @@
-<div style="border-style: solid;">
-    <h1 style="font-size: 40px; font-family:'Times New Roman', Times, serif">Über mich</h1>
-    <h2 style="font-family: 'Times New Roman', Times, serif; font-size: 35px;">
+<div>
+    <h1 class="siteheader">Über mich</h1>
+    <h2 class="sitesubheader">
         Hallo, meine Name ist Robert Lenz.
     </h2>
-    <h2 style="font-family: 'Times New Roman', Times, serif; font-size: 35px">
+    <h2 class="sitesubheader">
         Ich bin DJ und Producer aus dem Raum Aachen.
     </h2>
 </div>

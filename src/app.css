@@ -21,6 +21,16 @@
   position: absolute;
 }
 
+.cool_button {
+  font-size: 30px;
+  font-family: "Times New Roman", serif;
+}
+
+.cool_button:hover {
+  font-size: 34px;
+  text-decoration: underline;
+}
+
 nav {
   background-color: #000000;
   padding: 5px;
@@ -35,14 +45,25 @@ nav {
 nav:hover {
 }
 
+.siteheader {
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.sitesubheader {
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 nav a {
-  color: #adff7e;
+  color: #5eff00;
   text-decoration: none;
   margin: 0 20px;
 }
 
 nav a:hover {
   font-size: 25px;
+  text-decoration: wavy;
 }
 
 .gfg {
