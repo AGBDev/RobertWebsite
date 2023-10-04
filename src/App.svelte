@@ -36,7 +36,9 @@
 
 
             {#each links as linkf, index}
-                <Link to="{linkf.url}" title={linkf.tooltip}>{linkf.text}</Link>
+                <Link to="{linkf.url}" title={linkf.tooltip}>
+                    {linkf.text}
+                </Link>
                 {#if index != links.length - 1}
                 |
                 {/if}

@@ -9,9 +9,6 @@
 
     // add entries here:
 
-
-    entries.reverse();
-
     // loading all?
     let loadAll = false;
 
