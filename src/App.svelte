@@ -20,7 +20,7 @@
     let links: NavBarLink[] = [];
 
     links.push({text: "Startseite", url: "/", tooltip: "Zur Startseite", component: Home});
-    // links.push({text: "Über Mich", url: "/about", tooltip: "Über Mich", component: About});
+    links.push({text: "Über Mich", url: "/about", tooltip: "Über Mich", component: About});
     links.push({text: "Blog", url: "/blog", tooltip: "", component: Blog});
     links.push({text: "Links", url: "/links", tooltip: "Lese den Blog", component: Links});
     links.push({text: "Kontakt", url: "/contact", tooltip: "Kantaktaufnahme", component: Contact});
