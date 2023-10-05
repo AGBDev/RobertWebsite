@@ -67,6 +67,18 @@ nav {
   font-family: 'Times New Roman', Times, serif;
 }
 
+@media screen and (max-width: 481px) {
+  .siteheader {
+      font-size: 150%;
+      font-family: 'Times New Roman', Times, serif;
+    }
+  
+    .sitesubheader {
+      font-size: 100%;
+      font-family: 'Times New Roman', Times, serif;
+    }
+}
+
 nav a {
   color: #007500;
   text-decoration: none;
