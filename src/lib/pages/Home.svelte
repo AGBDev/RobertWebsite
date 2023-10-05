@@ -1,6 +1,5 @@
 <h1 class="siteheader">Startseite</h1>
 
-
 <div class="gfg">
     <img src="robert.jpg" alt=""  width="100%"  style="border-style: groove; border-color: #4a724b">
     <div class="text-container">
@@ -8,3 +7,9 @@
         <p style="font-family: 'Times New Roman', Times, serif;">DJ und Producer</p>
     </div>
 </div>
+
+<h2 class="sitesubheader">
+    <p>
+        Willkommen auf der Homepage von DJ Robert Lenz!
+    </p>
+</h2>

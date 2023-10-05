@@ -26,13 +26,11 @@
 
 @media screen and (max-width: 481px) {
   nav {
-      /* background-color: #4b3c3c; */
       padding: 0px;
       text-align: center;
       width: 100%;
       height: 35%;
   
-      /* Pay special attention here! */
       position: sticky;
     }
 
@@ -41,7 +39,7 @@
     }
 
     nav a:hover {
-      font-size: 25px;
+      font-size: 160%;
       text-shadow: 50px;
     }
 }
@@ -54,7 +52,18 @@ nav {
   height: 35%;
 
   /* Pay special attention here! */
-  position: sticky;
+  position: -webkit-sticky;
+}
+
+nav a {
+  color: #007500;
+  text-decoration: none;
+  font-size: 130%;
+}
+
+nav a:hover {
+  font-size: 140%;
+  text-shadow: 100%;
 }
 
 .siteheader {
@@ -67,14 +76,53 @@ nav {
   font-family: 'Times New Roman', Times, serif;
 }
 
-nav a {
-  color: #007500;
-  text-decoration: none;
+@media screen and (max-width: 481px) {
+  .siteheader {
+      font-size: 190%;
+      font-family: 'Times New Roman', Times, serif;
+    }
+  
+    .sitesubheader {
+      font-size: 100%;
+      font-family: 'Times New Roman', Times, serif;
+    }
 }
 
-nav a:hover {
-  font-size: 25px;
-  text-shadow: 100%;
+.blogtitle {
+  font-size: 200%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.blogtitlebig {
+    font-size: 250%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.blogcontent {
+  font-size: 140%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.blogcontentbig {
+  font-size: 170%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width: 481px) {
+  .blogtitle {
+      font-size: 150%;
+  }
+  .blogtitlebig {
+    font-size: 250%;
+  }
+  
+  .blogcontent {
+    font-size: 130%;
+  }
+
+  .blogcontentbig {
+    font-size: 100%;
+  }
 }
 
 .gfg {
@@ -106,7 +154,7 @@ nav a:hover {
 
 a {
   font-weight: 500;
-  color: #ccfb40;
+  color: #77912a;
   text-decoration: inherit;
 }
 a:hover {
