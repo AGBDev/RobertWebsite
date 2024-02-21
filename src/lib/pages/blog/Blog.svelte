@@ -16,6 +16,7 @@
         "Shesh"
     ], date: "05.10.23"});
 
+    // reverse so that the last lement is on top
     entries.reverse();
 
     // loading all?

@@ -34,7 +34,53 @@
 
 </script>
 
-<main>
+<!-- Uses a transparent header that draws on top of the layout's background -->
+<style>
+    .demo-layout-transparent {
+      background: url('../assets/demos/transparent.jpg') center / cover;
+    }
+    .demo-layout-transparent .mdl-layout__header,
+    .demo-layout-transparent .mdl-layout__drawer-button {
+      /* This background is dark, so we set text to white. Use 87% black instead if
+         your background is light. */
+      color: white;
+    }
+    </style>
+
+
+<!-- Always shows a header, even in smaller screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row" style="background-color: black;">
+        <!-- Title -->
+        <span class="mdl-layout-title" style="background-color: black;">DJ Robert Lenz</span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer" style="background-color: black;"></div>
+        <!-- Navigation. We hide it in small screens. -->
+        <nav class="mdl-navigation mdl-layout--large-screen-only" style="background-color: black;">
+          <a class="mdl-navigation__link" href="/">Startseite</a>
+          <a class="mdl-navigation__link" href="/about">Über</a>
+          <a class="mdl-navigation__link" href="/links">Links</a>
+          <a class="mdl-navigation__link" href="/contact">Kontakt</a>
+        </nav>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">DJ Robert Lenz</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="/">Startseite</a>
+        <a class="mdl-navigation__link" href="/about">Über</a>
+        <a class="mdl-navigation__link" href="/links">Links</a>
+        <a class="mdl-navigation__link" href="/contact">Kontakt</a>
+      </nav>
+    </div>
+  </div>
+
+<main class="mdl-layout__content">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
     {#if links.length == 0}
         :C
     {/if}
