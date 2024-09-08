@@ -23,6 +23,7 @@
   "dependencies": {
     "@sveltejs/adapter-netlify": "^1.0.0-next.88",
     "cloudmailin": "^0.0.3",
-    "nodemailer": "^6.9.5"
+    "nodemailer": "^6.9.5",
+    "robertwebsite": "file:"
   }
 }
